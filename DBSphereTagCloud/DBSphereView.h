@@ -29,4 +29,7 @@
  */
 - (void)timerStop;
 
+- (void)inertiaStart;
+- (void)inertiaStop;
+
 @end

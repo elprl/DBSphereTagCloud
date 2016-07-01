@@ -145,6 +145,7 @@
 
 - (void)inertiaStop
 {
+    velocity = 0.0;
     [inertia invalidate];
     inertia = nil;
     [self timerStart];
